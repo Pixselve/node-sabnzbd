@@ -12,7 +12,8 @@
     "test": "jest",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "docs": "typedoc src/index.ts --out docs"
   },
   "files": [
     "dist/**/*"
